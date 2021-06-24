@@ -1,0 +1,63 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
+  "rules": {
+    "prettier/prettier": "off",
+    "no-console": "off",
+    "camelcase": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "consistent-return": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/anchor-has-content": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-nested-ternary": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "import/prefer-default-export": "off",
+    "no-unused-vars": "off",
+    "no-shadow": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/no-unresolved": [2, { "caseSensitive": false }],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".tsx"]
+      }
+    ],
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "react/react-in-jsx-scope": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
