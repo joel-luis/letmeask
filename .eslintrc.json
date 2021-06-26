@@ -19,9 +19,11 @@
   },
   "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
   "rules": {
-    "prettier/prettier": "off",
+    "prettier/prettier": "error",
+    "import/no-duplicates": "off",
     "no-console": "off",
     "camelcase": "off",
+    "react/destructuring-assignment": "off",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "react/prop-types": "off",
     "react/require-default-props": "off",
