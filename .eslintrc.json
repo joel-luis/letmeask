@@ -23,6 +23,7 @@
     "import/no-duplicates": "off",
     "no-console": "off",
     "camelcase": "off",
+    "no-alert": "off",
     "react/destructuring-assignment": "off",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "react/prop-types": "off",
