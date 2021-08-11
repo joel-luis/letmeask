@@ -24,6 +24,7 @@
     "no-console": "off",
     "camelcase": "off",
     "no-alert": "off",
+    "react/no-unused-prop-types": "off",
     "react/destructuring-assignment": "off",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "react/prop-types": "off",
@@ -37,7 +38,7 @@
     "import/prefer-default-export": "off",
     "no-unused-vars": "off",
     "no-shadow": "off",
-    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/rules-of-hooks": "warn",
     "react-hooks/exhaustive-deps": "warn",
     "import/no-unresolved": [2, { "caseSensitive": false }],
     "react/jsx-filename-extension": [
